@@ -14,7 +14,7 @@ public class ConsumerExample2 {
         System.out.println("---------------");
         Consumer<Instructor> c2 = (s1) -> System.out.print(s1.getName()+" ");
         instructors.forEach(c2);
-        System.out.println(s1.getName())
+        System.out.println();
 
         //Loop through all the instructors and print out their names and their courses
         System.out.println("----------------");
