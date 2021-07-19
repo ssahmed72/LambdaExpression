@@ -29,4 +29,13 @@ hs_err_pid*
 *.iml
 *.kotlin_module
 
+#For NetBeans Proyects
 
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
